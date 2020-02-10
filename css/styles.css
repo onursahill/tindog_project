@@ -21,6 +21,19 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+/* SECTIONS */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+
 /* HEADINGS */
 
 .big-heading{
@@ -71,15 +84,10 @@ h1, h2, h3, h4, h5, h6{
 
 /* TITLE SECTION */
 
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
-
 #title .container-fluid{
     padding: 3% 15% 7%;
-}
+    text-align: left;
+a}
 
 
 
@@ -97,7 +105,6 @@ h1, h2, h3, h4, h5, h6{
 /* FEATURES SECTION */
 
 #features{
-    background-color: #fff;
     position: relative;
 }
 
@@ -124,7 +131,6 @@ h1, h2, h3, h4, h5, h6{
 
 #testimonials{
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-image{
@@ -173,11 +179,6 @@ h1, h2, h3, h4, h5, h6{
 
 /* CTA SECTION */
 
-#cta{
-    background-color: #ff4c68;
-    color: #fff;
-}
-
 
 
 /* FOOTER SECTION */
@@ -185,6 +186,8 @@ h1, h2, h3, h4, h5, h6{
 .social-icon{
     margin: 20px 10px;
 }
+
+
 
 @media (max-width: 1028px){
     #title{
