@@ -16,19 +16,13 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 900;
 }
 
-h1{
-    
-}
-
 h2{
-    
     font-size: 3rem;
     line-height: 1.5;
 }
 
 h3{
-    font-family: "Montserrat";
-    font-weight: 800;
+    font-size: 1.5rem;
 }
 
 p{
@@ -141,6 +135,10 @@ p{
     margin: 20px;
 }
 
+.testimonial-text{
+    
+}
+
 
 
 /* PRICING SECTION */
@@ -152,6 +150,11 @@ p{
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 
